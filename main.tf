@@ -16,8 +16,7 @@ resource "aws_instance" "ec2" {
   
   tags = {
     Name = "HelloWorld"
-    Team= "devops"
-    environment = "${var.environment}
+    
   }
        
 }
